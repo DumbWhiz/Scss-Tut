@@ -1,0 +1,40 @@
+$c-black: #333333;
+$c-white:#ffffff;
+$background: #0000ff;
+$c-red:red;
+$c-blue:#0000ff;
+$ptag:#000000; 
+$padding:0 7.5rem;
+
+@mixin fancy-border{
+    border: 1px dashed $c-black;
+    border-radius:5px;
+    background-color:yellow;
+}
+
+body{
+    padding:$padding; 
+    header{
+        font-size: 2rem;
+        font-family:Impact, sans-serif;
+    }
+}
+
+main {
+
+    @include fancy-border;
+
+    p {
+        background-color: $c-red;
+        color: $ptag;
+    }
+    article{
+        background:$background;
+
+        p{
+            color:$c-blue;
+            background-color: $ptag;
+        }
+    }
+}
+

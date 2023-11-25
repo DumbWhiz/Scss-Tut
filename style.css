@@ -1,0 +1,20 @@
+body {
+  padding: 0 7.5rem; }
+  body header {
+    font-size: 2rem;
+    font-family: Impact, sans-serif; }
+
+main {
+  border: 1px dashed #333333;
+  border-radius: 5px;
+  background-color: yellow; }
+  main p {
+    background-color: red;
+    color: #000000; }
+  main article {
+    background: #0000ff; }
+    main article p {
+      color: #0000ff;
+      background-color: #000000; }
+
+/*# sourceMappingURL=style.css.map */
